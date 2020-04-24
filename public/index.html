@@ -1,65 +1,154 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="pt-br">
+
+<head>
+    <title>Johnendz - Em projetos pessoais</title>
+    <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.14.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.14.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.14.1/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.14.1/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.14.1/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Johnendz" />
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        function hideURLbar() {
+            window.scrollTo(0, 1);
         }
-      });
     </script>
-  </body>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+    <!-- //Fonts -->
+
+</head>
+
+<body>
+
+    <!-- mian-content -->
+    <div class="main-banner" id="home">
+
+        <!--/banner-->
+        <div class="banner-info">
+            <div class="w3pvt-logo text-center">
+                <h1> <a href="index.html">Johnendz</a></h1>
+            </div>
+            <div class="middile-inner-con">
+                <div class="tab-main mx-auto">
+
+                    <input id="tab1" type="radio" name="tabs" class="w3layouts-sm" checked>
+                    <label for="tab1"><span class="fa fa-home" aria-hidden="true"></span>Inicio</label>
+
+                    <input id="tab2" type="radio" class="w3layouts-sm" name="tabs">
+                    <label for="tab2"><span class="fa fa-users" aria-hidden="true"></span> Sobre</label>
+
+                    <input id="tab3" type="radio" class="w3layouts-sm" name="tabs">
+                    <label for="tab3"><span class="fa fa-files-o" aria-hidden="true"></span>Artigos</label>
+                    <input id="tab4" type="radio" class="w3layouts-sm" name="tabs">
+                    <label for="tab4"><span class="fa fa-envelope" aria-hidden="true"></span> Contato</label>
+                    <section id="content1" class="inner-w3layouts-wrap">
+                        <img src="https://avatars1.githubusercontent.com/u/52322672?s=460&u=4c39a6e08385b7217a6c0ba7bf32890d004730e7&v=4" class="admin img-fluid" alt="mobile-image" style="max-width:120px;">
+                        <h4>Olá, Eu sou Alexander</h4>
+                        <h2>minha introdução</h2>
+                        <p>Pode me considerar como um aventureiro do mundo da tecnologia, sempre estou lendo noticias e buscando conhecer coisas novas, é incrivel como gastemos dinheiro para ter a experiência de coisas incriveis.</p>
+
+                    </section>
+                    <section id="content2" class="inner-w3layouts-wrap">
+                        <h3 class="head-w3ls">O que eu faço...</h3>
+                        <p>Atualmente, nada, mas de tudo, estou focado em coisas pesssoais, já que fiquei muitos anos estudando e trabalhando, quero focar em coisas só para mim, e melhorar meu estilo de vida, tentando experimentar diversas experiências que não tive oportunidade na juventude, como viajar, comer coisas diferente, e ter novos hobbies, como ler ou fotografias, é uma coisa que realmente amo fazer, que ver eu feliz é fotografando, ou apenas relaxando em um lugar calmo, ou me divertindo com amigos em lugares, que tenha água, também estou reformando, meu quarto com equipamentos, melhores.</p>
+                    </section>
+                    <section id="content3" class="inner-w3layouts-wrap">
+                        <h3 class="head-w3ls">Veja os meus artigos recentes</h3>
+                        <div class="row news-grids text-center">
+                            <div class="col-4 gal-img">
+                                <a href="https://www.linkedin.com/pulse/extensões-para-firefox-alexander-friedrich" class="tooltip-a"><span class="tooltip-text">Extensões para Firefox</span><img src="https://media-exp1.licdn.com/dms/image/C4E12AQFKmXANrcQ-Dw/article-cover_image-shrink_720_1280/0?e=1593043200&v=beta&t=kOTLBGjrz_FGI9x9jfrpwxPbCmifKus-HgSQgRjUdjM" alt="news image" class="cover"></a>
+                                <a href="https://www.linkedin.com/pulse/aplicação-em-react-para-ajudar-ongs-alexander-friedrich" class="tooltip-a"><span class="tooltip-text">Aplicação em React para ONGs</span><img src="https://media-exp1.licdn.com/dms/image/C4E12AQGDLxETH-10mA/article-cover_image-shrink_720_1280/0?e=1593043200&v=beta&t=Wtv0WXE68F0PGVGNYUeXJFJczNH0RJkaqhfoOfbHCLQ" alt="news image" class="cover"></a>
+                            </div>
+                            <div class="col-4 gal-img">
+                                <a href="https://www.linkedin.com/pulse/briefing-br-auctions-alexander-friedrich" class="tooltip-a"><span class="tooltip-text">Briefing - Cadê os Leilões?</span><img src="https://media-exp1.licdn.com/dms/image/C4E12AQEOTmNbi1vgyw/article-cover_image-shrink_720_1280/0?e=1593043200&v=beta&t=_-N_jVIP6-4Pyw_sZEmUXbI2YGzU_vzfLsdQy9b5q7E" alt="news image" class="cover"></a>
+                                <a href="https://www.linkedin.com/pulse/como-melhorar-o-foco-alexander-friedrich" class="tooltip-a"><span class="tooltip-text">Como Melhorar o Foco</span><img src="https://media-exp1.licdn.com/dms/image/C4E12AQFUJtnU3o1y2w/article-cover_image-shrink_720_1280/0?e=1593043200&v=beta&t=LowKZon-Uw_TgyyyPxhf_eMXD-PY6d5d6dj1gBdagvk" alt="news image" class="cover"></a>
+                            </div>
+                            <div class="col-4 gal-img" style="display:none;">
+								<a href="https://www.linkedin.com/pulse/extensões-para-firefox-alexander-friedrich" class="tooltip-a"><span class="tooltip-text">Extensões para Firefox</span><img src="images/projetos/1.jpeg" alt="news image" class="cover"></a>
+                                <a href="https://www.linkedin.com/pulse/aplicação-em-react-para-ajudar-ongs-alexander-friedrich" class="tooltip-a"><span class="tooltip-text">Aplicação em React para ONGs</span><img src="images/projetos/2.jpeg" alt="news image" class="cover"></a>
+                            </div>
+                            <!-- popup-->
+
+                        </div>
+                    </section>
+                    <section id="content4" class="inner-w3layouts-wrap">
+                        <h3 class="head-w3ls"> ENTRAR EM CONTATO</h3>
+                        <form name="contact-form" class="contact-form" type="post" action="#">
+                            <div class="row">
+                                <div class="col-12 con-gd">
+                                    <div class="form-group">
+                                        <p>Mensagem *</p>
+                                        <textarea id="message" placeholder="" required=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-default" onclick="sendMail()">Enviar</button>
+                            </div>
+
+                        </form>
+                        <ul class="w3pvt_social_list list-unstyled mt-4">
+                            <li>
+                                <a href="https://www.linkedin.com/in/johnendz" class="w3layouts-icon" target="_blank">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://github.com/johnendz" class="w3layouts-icon" target="_blank">
+                                    <span class="fa fa-github"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tagram.com/johnendz" class="w3layouts-icon" target="_blank">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://steamcommunity.com/id/johnendz" class="w3layouts-icon" target="_blank">
+                                    <span class="fa fa-steam"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
+                </div>
+                <!--// banner-inner -->
+            </div>
+        </div>
+        <div class="copy-w3layouts-right text-center pb-3">
+            <p>Design by<a href="http://w3layouts.com"> W3layouts </a> with Modifications by Johnendz.</p>
+        </div>
+    </div>
+    <!--//main-content-->
+<script>
+function sendMail() {
+	var message = document.getElementById("message").value;
+	if(message != ""){
+		window.open('mailto:contato@johnendz.com?subject=Estou entrando em contato para conversar sobre:&body=' + message);
+	}
+}
+</script>
+</body>
+
 </html>
