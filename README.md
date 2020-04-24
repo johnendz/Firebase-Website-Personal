@@ -2,9 +2,6 @@
     <img alt="Firebase logo" src="https://i.imgur.com/rEBClkG.png" width="250px" />
 </h1>
 
-<h4 align="center">
-  🚀 Firebase Website Personal
-</h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/johnendz/Firebase-Website-Personal?color=yellow">
 
@@ -24,5 +21,5 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" width="1024" src="https://i.imgur.com/hgdtNy1.png">
+  <img alt="Frontend" width="1024" src="https://i.imgur.com/DRRTFpi.png">
 </p>
